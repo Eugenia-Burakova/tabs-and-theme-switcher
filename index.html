@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../tabs-and-theme-switcher/styles.css">
+</head>
+
+<body>
+    <div class="container theme">
+        <div class="header-container theme">
+            <h3 class="heading">Home Decor</h3>
+
+            <div class="theme-switcher">
+                <input type="checkbox" id="switcher">
+            </div>
+        </div>
+
+        <div class="sections-buttons theme">
+            <button class="tab tablinks" onclick="openSection(event, 'rooms-decor')">Rooms</button>
+            <button class="tab tablinks" onclick="openSection(event, 'kitchens-decor')">Kitchen</button>
+            <button class="tab tablinks" onclick="openSection(event, 'bathrooms-decor')">Bathroom</button>
+        </div>
+
+        <div class="products-container theme">
+
+            <div id="rooms-decor" class="tabcontent">
+                <h3 class="tab-heading">Rooms' decor</h3>
+                <p class="tab-text">Lorem ipsum</p>
+                <img src="https://www.ikea.com/ext/ingkadam/m/6a4e57a2122aabba/original/PH164946-crop001.jpg?f=xl"
+                    alt="room" class="img">
+            </div>
+
+            <div id="kitchens-decor" class="tabcontent">
+                <h3 class="tab-heading">Kitchen's decor</h3>
+                <p class="tab-text">Lorem ipsum</p>
+                <img src="https://www.ikea.com/ext/ingkadam/m/165f27220e6796cd/original/PH182140-crop001.jpg?f=xl"
+                    alt="kitchen" class="img">
+            </div>
+
+            <div id="bathrooms-decor" class="tabcontent">
+                <h3 class="tab-heading">Bathroom's decor</h3>
+                <p class="tab-text">Lorem ipsum</p>
+                <img src="https://www.ikea.com/ext/ingkadam/m/5b6962818fbbf908/original/PH176324-crop001.jpg?f=xl"
+                    alt="bathroom" class="img">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../tabs-and-theme-switcher/script.js"></script>
+</body>
+
+</html>
